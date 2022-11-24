@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel ="icon" href="https://cdn.icon-icons.com/icons2/2699/PNG/512/trivago_logo_icon_168437.png" type = "image/x-icon">
+	<link rel="stylesheet" href="./css/style.css">
+
+	<script src="https://kit.fontawesome.com/110d390a74.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/anb8pvy.css">
+
+    <title>trivago</title>
+</head>
+
+<!--
+		Nav
+-->
+<nav>
+<!-- Nav Logo Section -->
+<div id="nav-logo" class="nav-section">
+	<a href="#">
+        <span style="color:#0088BC">tri</span><span style="color:#FF8B00">va</span><span style="color:#D83F1F">go</span>
+	</a>
+</div>
+
+<!-- Nav Icons Section -->
+<div id="nav-icons" class="nav-section">
+	<!-- Account Menu -->
+	<a href="#">
+		<i class="fa-solid fa-user"></i>
+	</a>
+	<!-- Options Menu -->
+	<a href="#">
+		<i class="fa-solid fa-bars"></i>
+	</a>
+	<!-- Currency Menu -->
+	<a href="#">
+		<i class="fa-solid fa-coins"></i>
+	</a>
+</div>
+
+</nav>
+
+<body>
+
+<!--
+		Search Bar
+-->
+<div id="searchBar">
+	<!-- Search Bar - Filters -->
+	<form action="" id="searchBar_filters">
+		<button type="button"><a>All Stays</a></button>
+		<button type="button"><a>Hotel</a></button>
+		<button type="button"><a>House / Apartment</a></button>
+	</form>
+	<!-- Search Bar - Content -->
+	<form action="" id="searchBar_content">
+		<input type="text" placeholder="Enter a hotel name or destination" name="searchField">
+
+		<!-- Dates Selection -->
+		<input type="date" data-role="calendarpicker">
+		<input type="date" data-role="calendarpicker">
+
+		<!-- # of Guests -->
+		<button type="number"><a>Guests</a></button>
+
+		<!-- Submit Search -->
+		<button type="searchSubmit"><i class="fa-solid fa-magnifying-glass"></i></button>
+	</form>
+</div>
+
+<!--
+		Recent Activity
+-->
+<div id="recentActivity"></div>
+
+<!--
+		Top Destinations
+-->
+<div id="topDestinations">
+
+	<!-- Destinations -->
+	<div id="destinationList">
+		<div class="destination">
+			<img src="./img/61000_v78.webp" style="width: 280px">
+			<h3>Hotels in Auckland</h3>
+			<span># of Hotels<strong>Avg $</strong></span>
+		</div>
+		<div class="destination">
+			<img src="./img/60983_v69.webp" style="width: 280px">
+			<h3>Hotels in Wellington</h3>
+			<span># of Hotels<strong>Avg $</strong></span>
+		</div>
+		<div class="destination">
+			<img src="./img/61349_v70.webp" style="width: 280px">
+			<h3>Hotels in Christchurch</h3>
+			<span># of Hotels<strong>Avg $</strong></span>
+		</div>
+		<div class="destination">
+			<img src="./img/61352_v70.webp" style="width: 280px">
+			<h3>Hotels in Queenstown</h3>
+			<span># of Hotels<strong>Avg $</strong></span>
+		</div>
+
+
+
+	</div>
+
+	<!-- Controller -->
+	<div id="destinationController">
+		<button type="button"><a>left</a></button>
+		<button type="button"><a>page</a></button>
+		<button type="button"><a>page</a></button>
+		<button type="button"><a>right</a></button>
+	</div>
+</div>
+
+<!--
+		Extra Information
+-->
+<div id="extraInformation">
+	<article class="textCard">
+		<h3>trivago's global hotel search</h3>
+		<a>trivago’s hotel search allows users to compare hotel prices in just a few clicks from more than 300 booking sites for more than 5.0 million hotels and other types of accommodation in over 190 countries. We help millions of travelers each year compare deals for hotels and accommodations. Get information for weekend trips to cities like Auckland or Wellington and you can find the right hotel on trivago quickly and easily. Rotorua and its surrounding area are great for trips that are a week or longer with the numerous hotels available.</a>
+	</article>
+	<article class="textCard">
+		<h3>Find cheap hotels on trivago</h3>
+		<a>With trivago you can easily find your ideal hotel and compare prices from different websites. Simply enter where you want to go and your desired travel dates, and let our hotel search engine compare accommodation prices for you. To refine your search results, simply filter by price, distance (e.g. from the beach), star category, facilities and more. From budget hostels to luxury suites, trivago makes it easy to book online. You can search from a large variety of rooms and locations across New Zealand, like Queenstown and Taupo to popular cities and holiday destinations abroad!</a>
+	</article>
+	<article class="textCard">
+		<h3>Hotel reviews help you find your ideal hotel</h3>
+		<a>Over 175 million aggregated hotel ratings and more than 19 million images allow you to find out more about where you're travelling. To get an extended overview of a hotel property, trivago shows the average rating and extensive reviews from other booking sites, e.g. Hotels.com, Expedia, Agoda, leading hotels, etc. trivago makes it easy for you to find information about your trip to Sydney, including the ideal hotel for you.</a>
+	</article>
+	<article class="textCard">
+		<h3>How to book</h3>
+		<a>trivago is a hotel search with an extensive price comparison. The prices shown come from numerous hotels and booking websites. This means that while users decide on trivago which hotel best suits their needs, the booking process itself is completed through the booking sites (which are linked to our website). By clicking on the “view deal” button, you will be forwarded onto a booking site where you can complete the reservation for the hotel deal found on trivago.
+
+			Let trivago help you to find the right price from over 300 booking sites!</a>
+	</article>
+</div>
+</body>
+
+<footer>
+
+<!--
+		Footer Notes
+-->
+<div id="footerNotes">
+	<div id="footerLeft">
+		<li>Company</li>
+		<li>Jobs</li>
+		<li>Press</li>
+		<li>Investor relations</li>
+	</div>
+	<div id="footerMid">
+		<li>Mobile apps - searching on the go</li>
+		<li>trivago Business Studio</li>
+	</div>
+	<div id="footerRight">
+		<li>Help</li>
+		<li>Learn how trivago works</li>
+		<li>Terms and conditions</li>
+		<li>Legal information</li>
+		<li>Do Not Sell My Personal Information</li>
+		<li>Privacy notice</li>
+		<li>Cyber Security</li>
+		<li>Coronavirus (COVID-19) travel advice</li>
+	</div>
+</div>
+
+<!--
+		Mailing List
+-->
+<div id="mailingList"></div>
+
+
+</footer>
+
+</html>

@@ -1,0 +1,138 @@
+:root {
+    --bg-color: #202124;
+    --grey-color: #BDC1C6;
+}
+
+/*--------------
+
+    0. CSS Reset
+---------------*/
+body {
+    background-color: var(--bg-color);
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, a, p, span, i {
+    font-family: 'proxima-nova-condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--------------
+
+    1. Nav
+---------------*/
+nav {
+    display: flex;
+    width: 100%;
+    background-color: var(--bg-color);
+    border-bottom: .5px solid var(--grey-color);
+}
+
+nav > .nav-section{
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Nav Logo Section */
+#nav-logo {
+    justify-content: flex-start;
+    flex-basis: calc(100%/3)
+}
+
+#nav-logo > a {
+    flex-basis: 50%;
+    font-size: 2.5rem;
+}
+/* Nav Icons Section */
+#nav-icons {
+    justify-content: flex-end;
+    gap: 1rem;
+    flex-grow: 1;
+    font-size: 2.5rem;
+}
+
+/*--------------
+
+    2. Body
+---------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/*
+    2a. Search Bar
+*/
+
+/*
+    2b. Recent Activity
+*/
+
+/*
+    2c. Top Destinations
+*/
+
+
+
+#destinationList {
+    display: flex;
+    gap: 8px;
+}
+
+.destination {
+    /* background-color: #BDC1C6; */
+    border: 2px solid #BDC1C6;
+    height: 380px;
+    width: 280px;
+}
+
+.destination > img {
+    border-radius: 15px;
+}
+
+
+
+
+/*
+    2d. Extra Information
+*/
+#extraInformation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*--------------
+
+    3. Footer
+---------------*/
+#footerNotes {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    3a. Footer Notes
+*/
+
+/*
+    3b. Mailing List
+*/
